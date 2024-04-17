@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
-using namespace std;
+
 int main() {
-    string username;
+    std::string username;
 
-    cout << "Введите ваше имя: ";
-    getline(std::cin, username);
+    std::cout << "Введите ваше имя: ";
+    std::getline(std::cin, username);
 
-    cout << "Hello world from " << username <<endl;
+    std::cout << "Hello world from " << username <<std::endl;
 
     return 0;
 }
